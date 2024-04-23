@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiAndObservableValidator.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiAndObservableValidator"
+    Shell.FlyoutBehavior="Disabled"
+    Title="MauiAndObservableValidator">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:AddRatingPage}"
+        Route="AddRatingPage" />
+
+</Shell>
